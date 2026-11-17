@@ -8,3 +8,9 @@ def test_salary_2():
 
 def test_salary_3():
     assert calculate_gross_salary(20000, 15, 5) == 24000
+
+def test_salary_4():
+    assert calculate_gross_salary(30000, 10, 10) == 36000
+
+def test_salary_5():
+    assert calculate_gross_salary(40000, 25, 5) == 52000

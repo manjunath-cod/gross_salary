@@ -10,8 +10,11 @@ def calculate_gross_salary(basic_salary, hra_percent, da_percent):
     print("DA =", da)
     print("Gross Salary =", gross_salary)
 
-basic_salary = float(sys.argv[1])
-hra_percent = float(sys.argv[2])
-da_percent = float(sys.argv[3])
+    return gross_salary
 
-calculate_gross_salary(basic_salary, hra_percent, da_percent)
+if __name__ == "__main__":
+    basic_salary = float(sys.argv[1])
+    hra_percent = float(sys.argv[2])
+    da_percent = float(sys.argv[3])
+
+    calculate_gross_salary(basic_salary, hra_percent, da_percent)
